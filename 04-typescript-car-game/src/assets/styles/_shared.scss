@@ -1,0 +1,12 @@
+@mixin track-background($image: "../images/game.webp", $height: 700px) {
+  background-image: url($image);
+  background-repeat: repeat;
+  height: $height;
+}
+
+@mixin trackSmall-background($image: "../images/gameSmall.webp", $height: 700px) {
+  background-image: url($image);
+  background-repeat: repeat;
+  height: $height;
+  width: 100%;
+}
